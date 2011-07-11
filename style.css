@@ -112,13 +112,13 @@ body.portfolio {
   .item .url {
     position: absolute;
     right: 0; }
-a {
-  background: inherit;
-  color: #dddddd;
-  font-family: 'Open Sans Condensed';
-  font-weight: 300;
-  font-style: normal;
-  text-decoration: none;
-  color: #999999;
-  line-height: 1.5em; }
+  .item a {
+    background: inherit;
+    color: #dddddd;
+    font-family: 'Open Sans Condensed';
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: #999999;
+    line-height: 1.5em; }
 
