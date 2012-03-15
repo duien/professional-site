@@ -1,0 +1,124 @@
+address, blockquote, body, center, dir, div, dl, fieldset, form, h1, h2, h3, h4, h5, h6, hr, isindex, menu, noframes, noscript, ol, p, pre, table, ul {
+  margin: 0;
+  padding: 0; }
+
+.clear {
+  clear: both; }
+
+body {
+  width: 960px;
+  margin: 40px auto; }
+
+h1 {
+  font-family: 'Lobster Two';
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3em;
+  margin: 20px 0;
+  text-align: center; }
+
+h2 {
+  background: black;
+  color: white;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  padding: 0 10px;
+  margin: 10px 0; }
+
+h3 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  border-bottom: 2px solid black;
+  padding: 0 10px;
+  margin: 5px 0; }
+
+h4 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  padding: 0 20px;
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 1.17em; }
+
+a {
+  color: black;
+  background: #dddddd; }
+
+p {
+  font-family: 'Open Sans';
+  padding: 0 30px; }
+
+.contact_info {
+  color: gray;
+  font-size: 90%; }
+  .contact_info p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    padding-bottom: 10px; }
+    .contact_info p.left {
+      float: left;
+      width: 30%; }
+    .contact_info p.center {
+      width: 30%;
+      margin: 0 auto;
+      text-align: center; }
+      .contact_info p.center a {
+        color: gray;
+        text-decoration: none;
+        background: none; }
+    .contact_info p.right {
+      float: right;
+      width: 30%;
+      text-align: right; }
+
+body.portfolio {
+  background: #333333;
+  color: #dddddd }
+  body.portfolio p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: italic;
+    padding: 0px;
+  }
+.row {
+  padding-bottom: 40px;
+  overflow: auto; }
+.item {
+  width: 460;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+  position: relative; }
+  .item.small {
+    width: 300px; }
+  .item h2 {
+    background: inherit;
+    color: #dddddd;
+    font-weight: 300;
+    padding: 0px; }
+
+  .item .image {
+    display: block;
+    position: relative; }
+  .item .image .url {
+    display: none;
+    bottom: 0;
+    padding: 0 10px;
+    background: #333333; }
+  .item .image:hover .url {
+    display: block; }
+  
+  .item .url {
+    position: absolute;
+    right: 0; }
+  .item a {
+    background: inherit;
+    color: #dddddd;
+    font-family: 'Open Sans Condensed';
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: #999999;
+    line-height: 1.5em; }
+
