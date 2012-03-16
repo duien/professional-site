@@ -1,5 +1,6 @@
 safe: true
 # source: <your pages repo>
 destination: public
+exclude: ["CNAME", "public"]
 lsi: false
 pygments: true
